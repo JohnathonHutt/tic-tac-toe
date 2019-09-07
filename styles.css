@@ -1,0 +1,37 @@
+
+body {
+  text-align: center;
+  background-color: tan;
+}
+
+#gameBoard {
+  margin: 0 auto;
+  display: grid;
+  background-color: black;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 560px;
+  height: 560px;
+}
+
+.tile {
+  color: white;
+  background-color: white;
+  width: 180px;
+  height: 180px;
+  font-size: 10rem;
+}
+
+.x {
+  background-color: red
+}
+
+.o {
+  background-color: blue;
+}
+
+.win {
+  color: black;
+  background-color: yellow;
+}
