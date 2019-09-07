@@ -1,7 +1,8 @@
 
 body {
   text-align: center;
-  background-color: tan;
+  background-color: #61f2f5;
+  font-family: arial;
 }
 
 #gameBoard {
@@ -11,16 +12,16 @@ body {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  width: 560px;
-  height: 560px;
+  width: 470px;
+  height: 470px;
 }
 
 .tile {
   color: white;
   background-color: white;
-  width: 180px;
-  height: 180px;
-  font-size: 10rem;
+  width: 150px;
+  height: 150px;
+  font-size: 8.5rem;
 }
 
 .x {
